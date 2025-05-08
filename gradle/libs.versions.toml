@@ -1,0 +1,57 @@
+[versions]
+activityComposeVersion = "1.8.1"
+agp = "8.9.2"
+datastorePreferencesVersion = "1.1.4"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.10.1"
+composeBom = "2024.09.00"
+lifecycleRuntimeKtxVersion = "2.6.2"
+materialVersion = "1.7.8"
+roomKtxVersion = "2.7.0"
+roomRuntimeVersion = "2.7.0"
+ui = "1.7.8"
+material = "1.6.0"
+roomRuntime = "2.6.1"
+roomKtx = "2.6.1"
+datastorePreferences = "1.1.0"
+uiVersion = "1.6.0"
+
+[libraries]
+androidx-activity-compose-v181 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-datastore-preferences-v114 = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferencesVersion" }
+androidx-lifecycle-runtime-ktx-v262 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+androidx-material-v178 = { module = "androidx.compose.material:material", version.ref = "materialVersion" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomKtxVersion" }
+androidx-room-ktx-v270 = { module = "androidx.room:room-ktx", version.ref = "roomKtxVersion" }
+androidx-room-runtime-v270 = { module = "androidx.room:room-runtime", version.ref = "roomRuntimeVersion" }
+androidx-ui-v160 = { module = "androidx.compose.ui:ui", version.ref = "uiVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
+androidx-material = { group = "androidx.compose.material", name = "material", version.ref = "material" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+androidx-datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastorePreferences" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+

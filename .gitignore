@@ -1,0 +1,33 @@
+# Android/Java specific
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+/build/
+*/build/
+*.apk
+*.aar
+*.jar
+
+# Log files
+*.log
+
+# Generated files
+/captures/
+/output.json
+
+# Keystore files
+*.keystore
+*.jks
+
+# Miscellaneous
+*.class
+*.swp
+*.swo
+*.tmp
+*.orig
+*.bak
+*.rej
+*.sublime-workspace
+*.sublime-project
